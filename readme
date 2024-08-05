@@ -1,0 +1,9 @@
+docx word document to Markdown md
+
+pandoc test.docx \
+--lua-filter=/home/user/Path/to/lua-pandocMapp/theLuaScriptFile.lua \
+--extract-media=extracted_media \
+-o test.md
+
+Linux
+
